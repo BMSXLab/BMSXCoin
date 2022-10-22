@@ -2,8 +2,8 @@ pragma solidity ^0.4.24;
  
 // Code to create the BMSX ERC-20 token
 // Code based on https://www.quicknode.com/guides/smart-contract-development/how-to-create-and-deploy-an-erc20-token
-// ICO Wallet on Goerli Testnet is 0xE7D7e51332218EC346dAf4f33Ff7F639d4186a26
-// Initial fill for gas is https://goerli.etherscan.io/tx/0x9ffbc68d940c42200f190480d0ad1958ec736cbdd5cfc89d2d8dc3fbeec616ed
+// ICO Wallet on Goerli Testnet is 0x72e6e18f418e3876ccdae097a13af36389b1ac20
+// Initial fill for gas is https://goerli.etherscan.io/address/0x72e6e18f418e3876ccdae097a13af36389b1ac20
 //
 // Rainer Feike, Okt. 2022
 
@@ -71,8 +71,8 @@ contract BMSXToken is ERC20Interface, SafeMath {
         // create 1 Mio. tokens
         decimals = 2;
         _totalSupply = 100000000;
-        balances[0xE7D7e51332218EC346dAf4f33Ff7F639d4186a26] = _totalSupply;
-        emit Transfer(address(0), 0xE7D7e51332218EC346dAf4f33Ff7F639d4186a26, _totalSupply);
+        balances[0x72e6e18f418e3876ccdae097a13af36389b1ac20] = _totalSupply;
+        emit Transfer(address(0), 0x72e6e18f418e3876ccdae097a13af36389b1ac20, _totalSupply);
     }
  
     function totalSupply() public constant returns (uint) {

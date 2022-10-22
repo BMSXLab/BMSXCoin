@@ -12,3 +12,7 @@ An ERC-20 Coin on Etherscan: https://goerli.etherscan.io/address/0xbaab89054448d
 * create goerliEth in your wallet (https://goerlifaucet.com/)
 * go to https://remix.ethereum.org, compile and deploy the BMSXToken script
 * Deploy the BMSXToken token to goerli
+
+## 1 Mio. ICO
+
+![BMSX ICO](assets/bmsxCoin.jpg?raw=true "ICO Wallet")

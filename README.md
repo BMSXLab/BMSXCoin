@@ -16,3 +16,11 @@ An ERC-20 Coin on Etherscan: https://goerli.etherscan.io/address/0xbaab89054448d
 ## 1 Mio. ICO
 
 ![BMSX ICO](assets/bmsxCoin.jpg?raw=true "ICO Wallet")
+
+## Create a private ethereum blockchain on three docker nodes
+
+* Check this: https://medium.com/scb-digital/running-a-private-ethereum-blockchain-using-docker-589c8e6a4fe8
+
+## Create an ethereum "geth" client node on Goerli
+
+* Check this: https://hub.docker.com/r/ethereum/client-go/  (geth --goerli console)
